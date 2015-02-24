@@ -1,0 +1,37 @@
+{
+  "name": "PracticaPL03",
+  "version": "1.0.0",
+  "description": "Temperature converter",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "./test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0100354256/PracticaPL03.git"
+  },
+  "keywords": [
+    "conversor",
+    "regexp",
+    "temperature",
+    "karma"
+  ],
+  "author": "Sergio GR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0100354256/PracticaPL03/issues"
+  },
+  "homepage": "https://github.com/0100354256/PracticaPL03",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "karma": "~0.12.31",
+    "karma-chrome-launcher": "~0.1.7",
+    "jasmine-core": "~2.2.0",
+    "karma-jasmine": "~0.3.5",
+    "requirejs": "~2.1.16",
+    "karma-requirejs": "~0.2.2",
+    "karma-firefox-launcher": "~0.1.4"
+  }
+}
