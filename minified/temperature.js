@@ -1,0 +1,1 @@
+function calculate(){var e=document.getElementById("original"),n=e.value,c=/^([+-]?\d+(?:\.\d+)?(?:[Ee][+-]?\d+)?)\s*([cCfF])$/,r=n.match(c);if(r){var t=parseFloat(r[1]),a=r[2];converted.innerHTML="c"==a||"C"==a?9*t/5+32+"F":5*(t-32)/9+"C"}else converted.innerHTML="¡ERROR! Formato Incorrecto"}
