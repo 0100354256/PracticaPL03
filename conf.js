@@ -10,6 +10,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+       {pattern: 'test/mocha.css', included: true, served: true},
        'test/chai.js',
        'test/mocha.js',
        'index.html',
