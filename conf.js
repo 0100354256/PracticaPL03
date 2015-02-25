@@ -10,12 +10,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+       'test/chai.js',
        'index.html',
        'test/index.html',
        'test-main.js',
        'test/*.js',
-       'javascripts/temperature.js',
-       'test/chai.js'
+       'javascripts/temperature.js'
     ],
 
     client: {
