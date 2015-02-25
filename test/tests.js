@@ -1,5 +1,5 @@
 var assert = chai.assert;
-window.mocha.setup({ui: 'tdd'});
+//window.mocha.setup({ui: 'tdd'});
 
 suite('Temperatura', function() {
     setup(function(){
