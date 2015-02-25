@@ -11,6 +11,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
        'test/chai.js',
+       'test/mocha.js',
        'index.html',
        'test/index.html',
        'test-main.js',
