@@ -14,7 +14,7 @@ module.exports = function(config) {
        'test/index.html',
        'test-main.js',
        'test/*.js',
-       'javascripts/temperature.js'
+       'javascripts/temperature.js',
        'test/chai.js'
     ],
 
