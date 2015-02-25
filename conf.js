@@ -15,6 +15,7 @@ module.exports = function(config) {
        'test-main.js',
        'test/*.js',
        'javascripts/temperature.js'
+       'test/chai.js'
     ],
 
     client: {
